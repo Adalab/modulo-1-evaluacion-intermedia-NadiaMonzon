@@ -50,14 +50,12 @@
     align-items: center;
 }
 
-.contenido {
+.diversidad {
+    width: 200px;
     color: var(--color-creando);
     font-size: 30px;
     font-weight: 800;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
 
@@ -78,7 +76,7 @@
         margin-right: 30px;
     }
 
-    .contenido {
+    .diversidad {
         font-size: 40px;
     }
 }
