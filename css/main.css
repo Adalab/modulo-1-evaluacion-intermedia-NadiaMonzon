@@ -8,7 +8,7 @@
 
 .header {
     width: 100vw;
-    /* background-color: red; */
+    background-color: var(--color-creando);
     position: fixed;
 }
 
@@ -31,13 +31,35 @@
     padding-bottom: 13px;
     color: var(--color-menu);
     font-size: 16px;
-    font-family: 'Rubik', sans-serif;
     text-transform: uppercase;
-
 
 }
 
 .blog {
     padding-right: 20px;
 
+}
+
+.main {
+    height: 100vh;
+
+}
+
+.section {
+    height: 100%;
+    background-color: var(--color-fondo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenido {
+    color: var(--color-creando);
+    font-size: 30px;
+    font-style: bold;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-weight: 800;
 }
