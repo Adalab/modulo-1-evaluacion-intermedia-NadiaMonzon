@@ -17,24 +17,25 @@
     align-items: center;
 }
 
-.logo-adalab {
-    margin-top: 10px;
+.title-logo {
+    padding-top: 10px;
     width: 155px;
+}
+
+.title-link {
+    color: var(--color-menu);
+    padding: 5px;
+}
+
+.title-link:hover {
+    color: var(--color-fondo);
 }
 
 .item {
     display: inline-block;
-    margin-top: 10px;
+    padding-top: 10px;
     padding-bottom: 13px;
     text-transform: uppercase;
-}
-
-.enlace {
-    color: var(--color-menu);
-}
-
-.enlace:hover {
-    color: var(--color-fondo);
 }
 
 .blog {
@@ -46,7 +47,7 @@
     height: 100vh;
 }
 
-.section {
+.main-section {
     height: 100%;
     background-color: var(--color-fondo);
     display: flex;
@@ -60,24 +61,23 @@
     font-size: 30px;
     font-weight: 800;
     text-align: center;
+    text-transform: capitalize;
 }
 
 
 
 @media all and (min-width: 768px) {
     .nav {
-        display: flex;
         flex-direction: row;
         justify-content: space-between;
-        align-items: center;
     }
 
     .logo-adalab {
-        margin: 20px 0 20px 30px;
+        padding: 20px 0 20px 30px;
     }
 
     .block-2 {
-        margin-right: 30px;
+        padding-right: 30px;
     }
 
     .diversidad {
